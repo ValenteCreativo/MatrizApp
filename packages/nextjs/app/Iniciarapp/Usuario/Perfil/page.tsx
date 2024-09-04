@@ -7,8 +7,7 @@ import Image from "next/image";
 import '../../../../styles/Settingsstyles.css'; // Importar CSS global
 
 const Perfil: React.FC = () => {
-  const userInfo = getUserInfo(); // eslint-disable-line @typescript-eslint/no-unused-vars
-
+  const userInfo = getUserInfo();
 
   const posts = [
     { content: "¡Construyendo el front-end de Matriz!.", date: "2024-08-31" },
@@ -121,7 +120,7 @@ function getUserInfo() {
     name: "Valentín Martínez",
     bio: "Investigador y creativo, apasionado por el desarrollo de redes de infraestructura para impacto social y ambiental.",
     photo: "https://i.ibb.co/0KTzdSy/Vale-Foto.png",
-    cv: "/path/to/cv.pdf",
+    cv: "https://example.com/cv" // Ejemplo de enlace al CV
   };
 }
 
