@@ -2,7 +2,7 @@ import React from 'react';
 import GlobalHeader from '../../../../components/GlobalHeader';
 import Link from 'next/link';
 import { FaUserCog, FaEnvelope, FaBell, FaCalendarAlt, FaLock } from 'react-icons/fa';
-
+import "../../../../styles/settingsstyles.css";
 const SettingsPage: React.FC = () => {
     return (
         <div className="settings-page">
