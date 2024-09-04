@@ -7,6 +7,7 @@
 Este proyecto está creado con **Scaffold-eth 2**, una plantilla de desarrollo para aplicaciones descentralizadas. La estructura del proyecto es la siguiente:
 
 - **Backend y Hardhat:** Las carpetas de desarrollo para el backend y Hardhat se encuentran dentro del directorio `packages`.
+- - **Pruebas de diseño:** La carpeta `antecedentes` contiene las pruebas iniciales de diseño para el Front-End. 
 - **Frontend:** El frontend está ubicado en `packages/nextjs/app`, donde se gestiona la interfaz de usuario y la experiencia del usuario final.
 
 ## Acerca de Matriz
@@ -21,15 +22,17 @@ Matriz sirve también como espacio digital para que personas con principios en c
 
 ## En Construcción
 
-Este proyecto está siendo desarrollado en el marco del **Frutal Web House Hackathon, Mérida 2024**.
+Este proyecto está siendo desarrollado en el marco del [Frutal Web House Hackathon, Mérida 2024](https://devpost.com/software/zigoto) 
 
 ## Tecnologías Implementadas
 
 Se planean implementar las siguientes tecnologías en **Matriz**:
 
-- **DAO MAKER TOOLINGS**
-- **ZK Knowledge** para proteger la data sensible
 - **Soneium Blockchain Infrastructure**
+- **DAO maker toolings**
+- **ZK Knowledge** : para proteger la data sensible del usuario
+- **Integración de sistemas de pagos**
+-  **Fondos de ahorro con rendimientos en Cripto**
 - Otras tecnologías por definir...
 
 ## Membresías
@@ -40,9 +43,12 @@ En Matriz, ofrecemos distintos tipos de membresías:
 - **Bienestar**
 - **Expansión**
 
+//Actualmente estamos realizando estudios de mercado para definir las necesidades y costos reales
+
+
 ## Roadmap
 
-Próximamente se incluirá un roadmap detallado con las fases y objetivos del proyecto.
+Próximamente se incluirá un roadmap detallado con las futuras implementaciones y dirección del proyecto. 
 
 
-<img width="645" alt="Captura de pantalla 2024-09-03 a la(s) 4 17 48 p m" src="https://github.com/user-attachments/assets/e6b225ec-5283-4b8b-8996-9d442efd3ce4">
+<img width="718" alt="Captura de pantalla 2024-09-03 a la(s) 3 50 03 p m" src="https://github.com/user-attachments/assets/0bb502fa-4a96-4ad5-993c-d2aed73a5a3e">
