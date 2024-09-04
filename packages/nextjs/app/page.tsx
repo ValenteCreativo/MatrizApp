@@ -1,70 +1,89 @@
 "use client";
 
+import React from "react";
 import Link from "next/link";
-import type { NextPage } from "next";
-import { useAccount } from "wagmi";
-import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { Address } from "~~/components/scaffold-eth";
+import Image from "next/image";
 
-const Home: NextPage = () => {
-  const { address: connectedAddress } = useAccount();
-
+const Home: React.FC = () => {
   return (
-    <>
-      <div className="flex items-center flex-col flex-grow pt-10">
-        <div className="px-5">
-          <h1 className="text-center">
-            <span className="block text-2xl mb-2">Welcome to</span>
-            <span className="block text-4xl font-bold">Scaffold-ETH 2</span>
-          </h1>
-          <div className="flex justify-center items-center space-x-2 flex-col sm:flex-row">
-            <p className="my-2 font-medium">Connected Address:</p>
-            <Address address={connectedAddress} />
-          </div>
-          <p className="text-center text-lg">
-            Get started by editing{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              packages/nextjs/app/page.tsx
-            </code>
-          </p>
-          <p className="text-center text-lg">
-            Edit your smart contract{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              YourContract.sol
-            </code>{" "}
-            in{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              packages/hardhat/contracts
-            </code>
-          </p>
-        </div>
+    <div>
+      <header>
+        <Link href="/">
+          <Image 
+            src="https://i.ibb.co/gVHtkSg/Matriz-isotipo.jpg" 
+            alt="Matriz Isotipo" 
+            width={70} 
+            height={70} 
+          />
+        </Link>
+        <nav>
+          <ul>
+            <li>
+              <Link href="/Descubre">
+                <span className="nav-link">Descubre</span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/Aprende">
+                <span className="nav-link">Aprende</span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/Aplica">
+                <span className="nav-link">Aplica</span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/Nosotros">
+                <span className="nav-link">Nosotros</span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/Iniciarapp">
+                <span className="launch-app">Iniciar App</span>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-        <div className="flex-grow bg-base-300 w-full mt-16 px-8 py-12">
-          <div className="flex justify-center items-center gap-12 flex-col sm:flex-row">
-            <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
-              <BugAntIcon className="h-8 w-8 fill-secondary" />
-              <p>
-                Tinker with your smart contract using the{" "}
-                <Link href="/debug" passHref className="link">
-                  Debug Contracts
-                </Link>{" "}
-                tab.
-              </p>
-            </div>
-            <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
-              <MagnifyingGlassIcon className="h-8 w-8 fill-secondary" />
-              <p>
-                Explore your local transactions with the{" "}
-                <Link href="/blockexplorer" passHref className="link">
-                  Block Explorer
-                </Link>{" "}
-                tab.
-              </p>
-            </div>
-          </div>
+      <section className="hero">
+        <div className="hero-text-left">
+          <p>La <em>seguridad</em> de un empleado,</p>
+          <p>con la <em>libertad</em> de un emprendedor.</p>
         </div>
-      </div>
-    </>
+        <div className="hero-image">
+          <Image 
+            src="https://i.ibb.co/McPDRk4/Comadre-Landing.png" 
+            alt="Ejemplo de suscripción" 
+            width={600} 
+            height={400} 
+          />
+        </div>
+        <div className="hero-text-right">
+          <p>Matriz es una cooperativa de plataforma que conecta trabajadores autónomos, emprendedores individuales y colectivos que se dedican a generar un cambio social y ambiental positivo en el mundo, interesados en mejorar su calidad de vida laboral y aumentar el impacto de su trabajo a través de la colaboración.</p>
+        </div>
+      </section>
+
+      <section className="about">
+        <div className="about-text">
+          <p>Adquiere la membresía y recibe las prestaciones laborales, herramientas de trabajo y beneficios que mereces.</p>
+          <p>Esta aplicación se sostiene en el Colectivo Matriz, una cooperativa de responsabilidad limitada de capital variable constituida en México.</p>
+          <p>Matriz sirve como una infraestructura común que le da soporte legal, fiscal y contable a los miembros de la comunidad.</p>
+        </div>
+        <div className="logo-bottom">
+          <Image 
+            src="https://i.ibb.co/R2MGQGm/Matriz-Logo.png" 
+            alt="Matriz Logo" 
+            width={150} 
+            height={150} 
+          />
+        </div>
+      </section>
+
+      <footer>
+      </footer>
+    </div>
   );
 };
 

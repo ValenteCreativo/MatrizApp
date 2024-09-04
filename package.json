@@ -30,6 +30,7 @@
     "next:check-types": "yarn workspace @se-2/nextjs check-types",
     "next:build": "yarn workspace @se-2/nextjs build",
     "next:serve": "yarn workspace @se-2/nextjs serve",
+    "lint": "next lint",
     "postinstall": "husky install",
     "precommit": "lint-staged",
     "vercel": "yarn workspace @se-2/nextjs vercel",
@@ -37,6 +38,9 @@
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
+    "@types/eslint": "^9",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3"
   },
