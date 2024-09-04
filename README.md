@@ -31,6 +31,7 @@ Se planean implementar las siguientes tecnologías en **Matriz**:
 - **Soneium Blockchain Infrastructure**
 - **DAO maker toolings**
 - **ZK Knowledge** : para proteger la data sensible del usuario
+- **Push Protocol API**
 - **Integración de sistemas de pagos**
 -  **Fondos de ahorro con rendimientos en Cripto**
 - Otras tecnologías por definir...
