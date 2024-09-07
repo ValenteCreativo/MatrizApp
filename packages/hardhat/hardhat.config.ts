@@ -118,6 +118,10 @@ const config: HardhatUserConfig = {
       url: "https://sepolia.publicgoods.network",
       accounts: [deployerPrivateKey],
     },
+    minato: {
+      url: "https://rpc.minato.soneium.org/",
+      accounts: ["3161cdf46fd47c8952ef76739dc81cb3e1137c0d097242bfe5727c696e2abf87"],
+    },    
   },
   // configuration for harhdat-verify plugin
   etherscan: {
