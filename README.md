@@ -1,3 +1,7 @@
+#NEW REPOSITORY!
+
+##WE DECIDED TO CREATE A NEW ORGANIZATION REPOSITORY AT (MATRIZ COOP)[https://github.com/Matriz-Coop] . THIS CODE WAS THE FIRST TEST USING `SCAFFOLD-ETH-2`. THE NEW ONE HAS BEEN BUILT FROM SCRATCH. PLEASE CHECK IT OUT! 
+
 # MatrizApp
 
 [Encuentra las bitácoras de desarrollo aquí](https://github.com/ValenteCreativo/MatrizApp/wiki)
